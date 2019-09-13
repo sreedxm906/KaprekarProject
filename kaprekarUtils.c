@@ -23,11 +23,11 @@
  #include<math.h>
  #include "kaprekarUtils.h"
 
-int isKaprekar(int n) {
+  int isKaprekar(int n) {
 
-  if(n < 1) {
-    return false;
-  }
+    if(n < 1) {
+    return 0;
+    }
 
   int i;
   //compute the square
