@@ -23,6 +23,8 @@
  #include<math.h>
  #include "kaprekarUtils.h"
 
+ int main(int argc, char const *argv[]) {
+
   int isKaprekar(int n) {
 
     if(n < 1) {
@@ -50,16 +52,14 @@
     //the second part cannot be zero and if
     //the sum of the two parts is equal to n, then it is
     if(0 < second && n = first + second) {
-      return 1
+      return 1;
       printf("The value you inputed is a Kaprekar number\n");
-     else if
-      return 0
-      printf("The value you inputed is NOT a Kaprekar number\n" ); 
-      {
-       /* code */
+      }
+     else (!first + second = n | | 0 > second) {
+      return 0;
+      printf("The value you inputed is NOT a Kaprekar number\n" );
      }
-    }
-  }
+
   return 0;
 
 }
