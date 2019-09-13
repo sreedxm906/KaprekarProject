@@ -29,7 +29,7 @@
   int isKaprekar(int n);
 
   printf("PLease enter a number:");
-  scanf("%d\n", n);
+  scanf("%d\n", &n);
     if(n < 1) {
     return 0;
     }
