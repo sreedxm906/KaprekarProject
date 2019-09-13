@@ -51,7 +51,7 @@
     //test if the split makes a Kaprekar number
     //the second part cannot be zero and if
     //the sum of the two parts is equal to n, then it is
-    if(0 < second && n = first + second) {
+    if(0.0 < second && n == first + second) {
       return 1;
       printf("The value you inputed is a Kaprekar number\n");
       }
@@ -62,4 +62,4 @@
 
   return 0;
 
-}
+  }
