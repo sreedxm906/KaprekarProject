@@ -43,8 +43,8 @@
     modulous *= 10;
 
     //split the square into two parts
-    first = square / modulus;
-    second = square % modulus;
+    first = square / modulous;
+    second = square % modulous;
 
     //test if the split makes a Kaprekar number
     //the second part cannot be zero and if
